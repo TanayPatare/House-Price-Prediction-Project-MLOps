@@ -3,7 +3,6 @@ from collections import namedtuple
 #Entity_1
 DataIngestionConfig = namedtuple("DataIngestionConfig",
 ["dataset_download_url","tgz_download_dir","raw_data_dir","ingested_train_dir","ingested_test_dir"])
-DataIngestionConfig = namedtuple("DataIngestionConfig", ["schema_file_path"])
 # 1.dataset_download_url has url of dataset.
 # 2.tgz_download_dir contains rar file of dataset.
 # 3.raw_data_dir conatins extracted dataset.
