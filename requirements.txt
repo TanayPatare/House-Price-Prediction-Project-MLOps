@@ -5,5 +5,5 @@ sklearn
 pandas
 PyYAML
 six
-sklearn
 evidently
+dill
